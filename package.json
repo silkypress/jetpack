@@ -88,7 +88,7 @@
 		"gridicons": "3.2.0",
 		"history": "3.3.0",
 		"i18n-calypso": "3.0.0",
-		"jsdom": "14.0.0",
+		"jsdom": "15.1.1",
 		"jsdom-global": "3.0.2",
 		"mapbox-gl": "0.53.1",
 		"markdown-it": "8.4.2",
