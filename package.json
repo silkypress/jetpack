@@ -168,7 +168,7 @@
 		"gulp-sourcemaps": "2.6.5",
 		"gulp-tap": "0.4.2",
 		"husky": "2.3.0",
-		"jest": "24.7.1",
+		"jest": "24.8.0",
 		"jest-puppeteer": "4.1.1",
 		"jshint": "2.10.2",
 		"jshint-stylish": "2.2.1",
