@@ -19,7 +19,7 @@ import {
 	withNotices,
 	SelectControl,
 } from '@wordpress/components';
-import { InspectorControls, BlockIcon } from '@wordpress/editor';
+import { InspectorControls, BlockIcon } from '@wordpress/block-editor';
 import { Fragment, Component } from '@wordpress/element';
 
 /**

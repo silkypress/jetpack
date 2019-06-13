@@ -5,7 +5,7 @@ import { __, _x } from '@wordpress/i18n';
 import { getBlockType, createBlock } from '@wordpress/blocks';
 import { Path, Circle } from '@wordpress/components';
 import { Fragment } from '@wordpress/element';
-import { InnerBlocks } from '@wordpress/editor';
+import { InnerBlocks } from '@wordpress/block-editor';
 
 /**
  * Internal dependencies
@@ -69,7 +69,9 @@ export const settings = {
 	},
 
 	edit: JetpackContactForm,
-	save: function() { return ( <InnerBlocks.Content /> ); },
+	save: function() {
+		return <InnerBlocks.Content />;
+	},
 	deprecated: [
 		{
 			attributes: {
@@ -107,7 +109,9 @@ export const settings = {
 				return true;
 			},
 
-			save: function() { return ( <InnerBlocks.Content /> ); },
+			save: function() {
+				return <InnerBlocks.Content />;
+			},
 		},
 	],
 };

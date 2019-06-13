@@ -4,7 +4,7 @@
 import apiFetch from '@wordpress/api-fetch';
 import classnames from 'classnames';
 import { __ } from '@wordpress/i18n';
-import { BlockControls, RichText } from '@wordpress/editor';
+import { BlockControls, RichText } from '@wordpress/block-editor';
 import { Component, createRef, Fragment } from '@wordpress/element';
 import { compose, createHigherOrderComponent } from '@wordpress/compose';
 import { Disabled, IconButton, SandBox, Toolbar } from '@wordpress/components';

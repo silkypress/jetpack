@@ -14,7 +14,7 @@ import {
 	MediaPlaceholder,
 	MediaUpload,
 	mediaUpload,
-} from '@wordpress/editor';
+} from '@wordpress/block-editor';
 import {
 	DropZone,
 	FormFileUpload,
